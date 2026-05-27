@@ -102,7 +102,8 @@ Below is the LTSpice schematic implementation integrating independent passive ne
 ### Parameter Sweep Results (Simultaneous Control)
 
 By running a multi-parameter sweep (`.step`), the graph below displays the full flexibility of the circuit:
-<img width="540" height="321" alt="image" src="https://github.com/user-attachments/assets/61b0eb96-ccb2-45f0-8bce-2f1bd90b5b32" />
+<img width="531" height="325" alt="image" src="https://github.com/user-attachments/assets/7052e994-655e-47dd-af2c-80dc470ea8c2" />
+
 
 .step param wiper1 list 5 25 50 75 95 
 .step param wiper2 list 5 25 50 75 95
