@@ -87,7 +87,8 @@ Below is the LTSpice schematic implementation integrating independent passive ne
 * **Cut Mode:** When moved toward the output, a symmetrical maximum cut of $-15\text{ dB}$ occurs at $20\text{ Hz}$.
 * **Midrange Integrity:** Regardless of the bass control position, the curve converges back to $0\text{ dB}$ near the **midrange turnover frequency** (typically around $1\text{ kHz}$).
 
-*(Insert your LTspice Bass Sweep Graph here)*
+<img width="539" height="320" alt="image" src="https://github.com/user-attachments/assets/93c573c9-f9fb-4dfe-9a6a-3846e71fc79d" />
+
 
 ### Treble Response
 
@@ -95,7 +96,8 @@ Below is the LTSpice schematic implementation integrating independent passive ne
 * **Cut Mode:** Mirror-image attenuation dropping down to $-15\text{ dB}$ at $20\text{ kHz}$.
 * **Low-Frequency Integrity:** The treble adjustments show $0\text{ dB}$ variance for all frequencies below $500\text{ Hz}$.
 
-*(Insert your LTspice Treble Sweep Graph here)*
+<img width="539" height="321" alt="image" src="https://github.com/user-attachments/assets/534c6893-7fd9-4fc5-bcd2-dd2a785999c7" />
+
 
 ### Parameter Sweep Results (Simultaneous Control)
 
