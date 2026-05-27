@@ -111,6 +111,6 @@ By running a multi-parameter sweep (`.step`), the graph below displays the full 
 
 ## Tools Used
 
-* **LTspice XVII / 24:** Used for schematic capture, AC sweep simulations, and component parameterization.
+* **LTspice :** Used for schematic capture, AC sweep simulations, and component parameterization.
 * **Analog Circuit Design Principles:** Applied to calculate turnover frequencies and structural component values.
 * **Frequency Response (Bode) Analysis:** Utilized to ensure flat midrange response and symmetric boost/cut profiles.
