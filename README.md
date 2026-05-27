@@ -71,23 +71,11 @@ The circuit was simulated using **AC Analysis (`.ac`)** in LTspice to plot magni
 
 ## Final Circuit Schematic
 
-Below is the LTspice schematic implementation featuring an idealized Op-Amp (or a standard audio Op-Amp like the NE5532/TL072), dual-potentiometer sub-circuits, and the necessary biasing components.
+Below is the LTSpice schematic implementation integrating independent passive networks into a unified active feedback loop around the OP07 operational amplifier, along with dual-potentiometer sub-circuits for bass and treble control.
+<img width="1251" height="609" alt="image" src="https://github.com/user-attachments/assets/40f00169-c781-4496-a613-7ea414cb8709" />
 
-```
-       [Input] ---[R_in]---+--------------------+---[R_f]--- [Output]
-                           |                    |
-                  +--------+--------+  +--------+--------+
-                  |  Bass Network   |  | Treble Network  |
-                  |   (R_b, C_b)    |  |   (R_t, C_t)    |
-                  +--------+--------+  +--------+--------+
-                           |                    |
-                           +---------[ - ]------+
-                                     [   ]---> Op-Amp
-                           GND ------[ + ]
 
-```
 
-*(Insert your LTspice schematic screenshot here)*
 
 ---
 
